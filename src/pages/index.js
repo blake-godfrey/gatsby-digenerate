@@ -21,7 +21,7 @@ const IndexPage = () => (
 		<div className="container mx-auto px-4">
 			<div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 				<div>
-					<h1 className="text-[#dcdcdc]">We help eCommerce & info product businesses <u>generate</u> sales via paid advertising.</h1>
+					<h1 className="text-white">We help eCommerce & info product businesses <span className="text-[#3bb4c1]">generate</span> sales via paid advertising.</h1>
 					<a href="#book-a-demo" className="btn">Book your free strategy call</a>
 				</div>
 
@@ -39,9 +39,9 @@ const IndexPage = () => (
 		</div>
 	</section>
 
-	<section className="py-12">
+	<section className="py-20">
 		<div className="container mx-auto px-4">
-			<div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+			<div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
 				<div>
 					<h2>What we offer</h2>
 					<h3>Paid advertising</h3>
@@ -64,9 +64,9 @@ const IndexPage = () => (
 		</div>
 	</section>
 
-	<section className="py-12 bg-[#fbfbfd]" id="book-a-demo">
+	<section className="py-20 bg-[#fbfbfd]" id="book-a-demo">
 		<div className="container mx-auto px-4">
-			<div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+			<div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
 				<div>
 					<InlineWidget url="https://calendly.com/digenerate" />
 				</div>
@@ -78,20 +78,20 @@ const IndexPage = () => (
 
 					<h3>This audit call is perfect for:</h3>
 					<ul className="m-0">
-						<li><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mr-1" /> Businesses looking to convert their current website into a high quality & streamlined funnel format</li>
-						<li><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mr-1" /> ​Businesses looking to take their offline business online</li>
-						<li><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mr-1" /> Businesses looking to understand their increased revenue potential with funnels & conversion rate optimization</li>
-						<li><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mr-1" /> ​Businesses looking to maximize their conversion rates & average order value</li>
-						<li><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mr-1" /> Businesses looking for a reliable agency that can make their company a priority</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking to convert their current website into a high quality & streamlined funnel format</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> ​Businesses looking to take their offline business online</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking to understand their increased revenue potential with funnels & conversion rate optimization</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> ​Businesses looking to maximize their conversion rates & average order value</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking for a reliable agency that can make their company a priority</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section className="py-16 bg-[#2a2a2a]">
+	<section className="py-20 bg-[#2a2a2a]">
 		<div className="container mx-auto px-4">
-			<div className="max-w-lg mx-auto text-center text-[#dcdcdc]">
+			<div className="max-w-lg mx-auto text-center text-white">
 				<h2>Have a general enquiry?</h2>
 				<p>If you have a general enquiry and would like to speak to our expert team, you can contact us via email at: <a className="text-[#3bb4c1] hover:text-[#2f909a]" href='mailto:hello@digenerate.com'>hello@digenerate.com</a></p>
 				<a href="#book-a-demo" className="btn">Book your free strategy call</a>

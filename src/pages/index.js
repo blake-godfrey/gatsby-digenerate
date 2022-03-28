@@ -17,11 +17,11 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-	<section className="py-20 bg-black">
+	<section className="py-20 bg-black bg-cover" style={{ backgroundImage: 'https://recurpost.com/wp-content/uploads/2019/09/recurpost.jpg' }}>
 		<div className="container mx-auto px-4">
 			<div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 				<div>
-					<h1 className="text-white">We help eCommerce & info product businesses <span className="text-[#3bb4c1]">generate</span> sales via paid advertising.</h1>
+					<h1 className="text-white">We help businesses <span className="text-[#3bb4c1]">generate</span> sales & leads via paid advertising.</h1>
 					<a href="#book-a-demo" className="btn">Book your free strategy call</a>
 				</div>
 
@@ -68,7 +68,7 @@ const IndexPage = () => (
 		<div className="container mx-auto px-4">
 			<div className="grid gap-12 grid-cols-1 lg:grid-cols-2">
 				<div>
-					<InlineWidget url="https://calendly.com/digenerate" />
+					<InlineWidget url="https://calendly.com/digenerate/15min" />
 				</div>
 
 				<div>
@@ -86,6 +86,12 @@ const IndexPage = () => (
 					</ul>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<section className="py-20">
+		<div className="container mx-auto px-4">
+			<
 		</div>
 	</section>
 

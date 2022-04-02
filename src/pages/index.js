@@ -1,6 +1,6 @@
 import * as React from "react"
 // import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-	<section className="py-20 bg-black bg-cover" style={{ backgroundImage: 'https://recurpost.com/wp-content/uploads/2019/09/recurpost.jpg' }}>
+	<section className="py-20 bg-black">
 		<div className="container mx-auto px-4">
 			<div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 				<div>
@@ -25,16 +25,16 @@ const IndexPage = () => (
 					<a href="#book-a-demo" className="btn">Book your free strategy call</a>
 				</div>
 
-				{/* <div>
+				<div>
 					<StaticImage
-						src="../images/gatsby-astronaut.png"
+						src="../images/hero.webp"
 						width={300}
 						quality={95}
 						formats={["auto", "webp", "avif"]}
 						alt="A Gatsby astronaut"
 						style={{ marginBottom: `1.45rem` }}
 					/>
-				</div> */}
+				</div>
 			</div>
 		</div>
 	</section>

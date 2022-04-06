@@ -17,22 +17,22 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-	<section className="py-20 bg-black">
+	<section className="bg-[#21a7a9]">
 		<div className="container mx-auto px-4">
 			<div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-				<div>
-					<h1 className="text-white">We help businesses <span className="text-[#3bb4c1]">generate</span> sales & leads via paid advertising.</h1>
+				<div className="py-12 lg:py-0">
+					<h1 className="text-white">We help businesses generate sales & leads via paid advertising.</h1>
 					<a href="#book-a-demo" className="btn">Book your free strategy call</a>
 				</div>
 
 				<div>
 					<StaticImage
-						src="../images/hero.webp"
-						width={300}
+						src="../images/hero-resized.webp"
+						width={600}
 						quality={95}
 						formats={["auto", "webp", "avif"]}
-						alt="A Gatsby astronaut"
-						style={{ marginBottom: `1.45rem` }}
+						alt="Advertising Illustration"
+						// style={{ marginBottom: `1.45rem` }}
 					/>
 				</div>
 			</div>
@@ -52,12 +52,12 @@ const IndexPage = () => (
 				<div>
 					<h2>We don't offer any other services except for paid advertising...</h2>
 					<ul className="m-0">
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> WEB DESIGN/DEVELOPMENT</li>
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> ​CONTENT CREATION</li>
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> EMAIL MARKETING</li>
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> ​SOCIAL MEDIA MANAGEMENT</li>
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> INSTAGRAM GROWTH</li>
-						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#3bb4c1] mr-1" /> PR SERVICE</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> WEB DESIGN/DEVELOPMENT</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> ​CONTENT CREATION</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> EMAIL MARKETING</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> ​SOCIAL MEDIA MANAGEMENT</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> INSTAGRAM GROWTH</li>
+						<li><FontAwesomeIcon icon={faCircleXmark} size="1x" className="text-[#21a7a9] mr-1" /> PR SERVICE</li>
 					</ul>
 				</div>
 			</div>
@@ -78,20 +78,14 @@ const IndexPage = () => (
 
 					<h3>This audit call is perfect for:</h3>
 					<ul className="m-0">
-						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking to convert their current website into a high quality & streamlined funnel format</li>
-						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> ​Businesses looking to take their offline business online</li>
-						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking to understand their increased revenue potential with funnels & conversion rate optimization</li>
-						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> ​Businesses looking to maximize their conversion rates & average order value</li>
-						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#3bb4c1] mt-1 mr-2" /> Businesses looking for a reliable agency that can make their company a priority</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#21a7a9] mt-1 mr-2" /> Businesses looking to convert their current website into a high quality & streamlined funnel format</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#21a7a9] mt-1 mr-2" /> ​Businesses looking to take their offline business online</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#21a7a9] mt-1 mr-2" /> Businesses looking to understand their increased revenue potential with funnels & conversion rate optimization</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#21a7a9] mt-1 mr-2" /> ​Businesses looking to maximize their conversion rates & average order value</li>
+						<li className="flex"><FontAwesomeIcon icon={faCircleCheck} size="1x" className="text-[#21a7a9] mt-1 mr-2" /> Businesses looking for a reliable agency that can make their company a priority</li>
 					</ul>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section className="py-20">
-		<div className="container mx-auto px-4">
-			<
 		</div>
 	</section>
 
@@ -99,7 +93,7 @@ const IndexPage = () => (
 		<div className="container mx-auto px-4">
 			<div className="max-w-lg mx-auto text-center text-white">
 				<h2>Have a general enquiry?</h2>
-				<p>If you have a general enquiry and would like to speak to our expert team, you can contact us via email at: <a className="text-[#3bb4c1] hover:text-[#2f909a]" href='mailto:hello@digenerate.com'>hello@digenerate.com</a></p>
+				<p>If you have a general enquiry and would like to speak to our expert team, you can contact us via email at: <a className="text-[#21a7a9] hover:text-[#2f909a]" href='mailto:blake@digenerate.com'>blake@digenerate.com</a></p>
 				<a href="#book-a-demo" className="btn">Book your free strategy call</a>
 			</div>
 		</div>

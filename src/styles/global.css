@@ -4,6 +4,6 @@
 
 @layer components {
   .btn {
-    @apply inline-block py-4 px-8 bg-[#3bb4c1] text-white rounded-[28px] shadow-md hover:bg-[#2f909a] focus:outline-none focus:ring-2 focus:ring-[#2f909a] focus:ring-opacity-75;
+    @apply inline-block py-4 px-8 bg-black text-white rounded-[28px] shadow-md border-2 border-black hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-[#2f909a] focus:ring-opacity-75;
   }
 }

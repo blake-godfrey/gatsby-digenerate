@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-black py-4">
+  <header className="bg-[#21a7a9] py-4">
     <div className="container mx-auto px-4">
       <div className="flex justify-between items-center">
         <div>
@@ -31,17 +31,17 @@ const Header = ({ siteTitle }) => (
           <ul className="flex m-0 space-x-4">
             <li className="mb-0">
               <a href="#">
-                <FontAwesomeIcon icon={faFacebookF} size="1x" className="text-[#dcdcdc]" />
+                <FontAwesomeIcon icon={faFacebookF} size="1x" className="text-white" />
               </a>
             </li>
             <li className="mb-0">
               <a href="#">
-                <FontAwesomeIcon icon={faLinkedinIn} size="1x" className="text-[#dcdcdc]" />
+                <FontAwesomeIcon icon={faLinkedinIn} size="1x" className="text-white" />
               </a>
             </li>
             <li className="mb-0">
               <a href="#">
-                <FontAwesomeIcon icon={faInstagram} size="1x" className="text-[#dcdcdc]" />
+                <FontAwesomeIcon icon={faInstagram} size="1x" className="text-white" />
               </a>
             </li>
           </ul>
